@@ -1,23 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 10px 10px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
     text-decoration: none;
     list-style-type: none;
+   
 }
 
 header {
-    background: #C5D8D1;
-    width: 100%;
+    background: #153243;
     display: flex;
-    height: 59px;
-    padding: 10px 30px 0px 30px ;
+    align-items: center;
     justify-content: space-between;
+    
 }
 
+
 .logo{
-    height: 80% ;
+    height: 100px ;
 }
 
 .navbar
@@ -32,9 +34,70 @@ header {
 }
 
 .lista-nav a {
-    color: #12263A ;
+    color: #EEF0EB;
 }
 
 .lista-nav li:first-child > a {
-    font-weight: 700;
+    font-weight: 900;
+}
+
+main{
+    background: #B4B8AB;
+}
+
+#hero{
+    display: flex;
+   /* margin-top: 88px;*/
+    padding: 70px 0px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuarto{
+    height: 300px;
+    width: 380px;
+}
+
+.hero-info{
+    margin-left: 100px;
+    flex-direction: column;
+    width: 90%;
+}
+
+.hero-info h1 {
+    font-weight: 800;
+    width: 55%;
+    font-size: 34px;
+}
+
+.hero-info p {
+    width: 70%;
+    color: #54535a;
+    padding-bottom: 10px;
+}
+
+.hero-info a {
+    background-color: #292a2d ;
+    color: #f8f8f8;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 9px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hero-card {
+    background-color:#153243; ;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footer-page p{
+    justify-content: center;
+    font-size: 14px;
+    padding: 0px 300px;
+    color: #292a2d;
+    font-weight: 600;
 }
