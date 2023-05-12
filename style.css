@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 10px 10px;
+    padding: 0PX;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-family: 'Poltawski Nowy', serif;
@@ -10,16 +10,19 @@
 }
 
 header {
-    background: #153243;
+    background:linear-gradient(to bottom, #153243 , #292a2d);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 90px;
+
     
 }
 
 
 .logo{
-    height: 100px ;
+    height: 45px ;
+    margin-left: 30px;
 }
 
 .navbar
@@ -35,6 +38,7 @@ header {
 
 .lista-nav a {
     color: #EEF0EB;
+    margin-right: 30px;
 }
 
 .lista-nav li:first-child > a {
@@ -42,14 +46,14 @@ header {
 }
 
 main{
-    background: #B4B8AB;
+    background: #292a2d;
 }
 
 #hero{
     display: flex;
    /* margin-top: 88px;*/
     padding: 70px 0px;
-    max-width: 1200px;
+    max-width: 1660px;
     justify-content: center;
     align-items: center;
 }
@@ -69,16 +73,20 @@ main{
     font-weight: 800;
     width: 55%;
     font-size: 34px;
+    background: linear-gradient(to bottom,#6D6027, #D3CBB8  ) ;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 .hero-info p {
     width: 70%;
-    color: #54535a;
+    color: #bebbb6;
     padding-bottom: 10px;
 }
 
 .hero-info a {
-    background-color: #292a2d ;
+    background-color: #15596a ;
     color: #f8f8f8;
     width: 120px;
     padding: 8px 0px;
@@ -95,9 +103,58 @@ main{
 }
 
 .footer-page p{
+    text-align: center;
     justify-content: center;
     font-size: 14px;
     padding: 0px 300px;
-    color: #292a2d;
+    color: #bebbb6;
     font-weight: 600;
+}
+
+#info{
+    padding: 70px 0px;
+    max-width: 1660px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#info h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #bebbb6;
+}
+
+.info-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-card{
+    height: 300px;
+    width: 290px;
+    padding: 40px 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background:#707e88 ;
+    border-radius: 1rem;
+
+}
+
+.info-card img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.info-card p{
+    color: #54535a;
+    font-size: 14px;
 }
