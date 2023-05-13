@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 0 ;
     padding: 0PX;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
@@ -50,10 +50,11 @@ main{
 }
 
 #hero{
+    margin: 0 auto;
     display: flex;
    /* margin-top: 88px;*/
     padding: 70px 0px;
-    max-width: 1660px;
+    max-width: 1200px;
     justify-content: center;
     align-items: center;
 }
@@ -112,8 +113,9 @@ main{
 }
 
 #info{
+    margin: 0 auto;
     padding: 70px 0px;
-    max-width: 1660px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items:center;
