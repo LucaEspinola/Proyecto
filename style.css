@@ -160,3 +160,61 @@ main{
     color: #54535a;
     font-size: 14px;
 }
+
+#footer-contact{
+ margin: 0 auto;
+ background: #292a2d;
+ padding: 0px 70px;
+}
+
+#footer-contact h2{
+    font-size: 50px;
+    color: #bebbb6;
+    justify-content: flex-start;
+}
+
+
+.contact-container-top{
+    color: #bebbb6;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contact-container-top h3{
+font-size: 20px;
+}
+
+
+.contact-container-top img{
+width: 390px;
+justify-content: flex-end;
+}
+.workers{
+    width: 50%;
+}
+
+.contact-container-bottom{
+    color: #bebbb6;
+    justify-content: space-between;
+}
+
+.Sm-info{
+   padding: 10px 10px;
+   font-size: 14px;
+}
+
+.Sm-info p{
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.Mdz-info{
+    padding: 10px 10px;
+   font-size: 14px;
+}
+
+.Mdz-info p{
+    gap: 10px;
+    margin-top: 20px;
+}
+
