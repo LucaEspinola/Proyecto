@@ -14,8 +14,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
-
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
     
 }
 
@@ -32,9 +34,6 @@ header {
     justify-content: center;
 }
 
-.lista-nav {
-    gap: 20px;
-}
 
 .lista-nav a {
     color: #EEF0EB;
@@ -43,6 +42,16 @@ header {
 
 .lista-nav li:first-child > a {
     font-weight: 900;
+}
+ 
+.navbar img{
+    width: 30px;
+    cursor: pointer;
+    display:none;
+}
+
+#toggle-menu{
+    display: none;
 }
 
 main{
@@ -86,15 +95,39 @@ main{
     padding-bottom: 10px;
 }
 
-.hero-info a {
-    background-color: #15596a ;
-    color: #f8f8f8;
+.padre-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons-hero-info{
+    background: #3378a0;
     width: 120px;
     padding: 8px 0px;
     border-radius: 9px;
     font-size: 14px;
     text-align: center;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttons-hero-info a{
+    color: #e4e3e3;
+}
+
+.buttons-a{
+    background: #193b4e;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 9px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttons-a a{
+    color: #e4e3e3;
 }
 
 .hero-card {
@@ -110,6 +143,10 @@ main{
     padding: 0px 300px;
     color: #bebbb6;
     font-weight: 600;
+}
+
+.hr{
+    color: #000;
 }
 
 #info{
@@ -174,47 +211,58 @@ main{
 }
 
 
-.contact-container-top{
-    color: #bebbb6;
+.contact-bottom{
     display: flex;
+    gap: 40px;
+    color: #bebbb6;
+    margin-top: 25px;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0px 0px;
     justify-content: space-between;
+}
+
+.contact-bottom p {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.contact-bottom h3{
+    font-size: 20px;
+    font-weight: 800;
     margin-top: 40px;
 }
-.contact-container-top h3{
-font-size: 20px;
-}
 
-
-.contact-container-top img{
-width: 390px;
-justify-content: flex-end;
-}
-.workers{
+.contact-bottom img{
     width: 50%;
+    width: 400px;
+    height: 390;
 }
 
-.contact-container-bottom{
+.redes{
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+   
+}
+
+.redes h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
     color: #bebbb6;
-    justify-content: space-between;
 }
 
-.Sm-info{
-   padding: 10px 10px;
-   font-size: 14px;
+.redes img{
+    width: 40px;
+    cursor: pointer;
+    background: #bebbb6;
+    gap: 40px;
+    border-radius: 9px;
+    margin-left: 40px;
 }
-
-.Sm-info p{
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.Mdz-info{
-    padding: 10px 10px;
-   font-size: 14px;
-}
-
-.Mdz-info p{
-    gap: 10px;
-    margin-top: 20px;
-}
+    
 

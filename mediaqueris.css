@@ -1,0 +1,26 @@
+@media (max-width: 992px){
+    
+    .navbar{
+       display: none ;
+    }
+    .lista-nav{ 
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+        background:#292a2d ;
+        border: 5px solid #153243;
+        border-top: none;
+        border-radius: 0px 0px 10px 10px;
+        z-index: 2;
+    }
+
+    .navbar img{
+        display: flex;
+
+    }
+       
+}

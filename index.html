@@ -9,12 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poltawski+Nowy:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mediaqueris.css">
 </head>
 <body>
     <header>
         <img src="./Captura.PNG" alt="Logo" class="logo">
         <nav class="navbar">
-            <ul class="lista-nav">
+           <label for="toggle-menu"><img src="./bars-solid.svg" alt="iconomenu"></label>
+            <input type="checkbox" id="toggle-menu">
+           <ul class="lista-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Clientes</a></li>
@@ -28,11 +31,14 @@
             <div class="hero-info">
                 <h1>Descubre la mayor comodidad en tu viaje</h1>
                 <p>Reserva ya en nuestros hoteles y disfruta tu viaje en los mejores paisajes.</p>
-                
-                    <a href="#">Reserva ya</a>
-                
-                    <a href="#">informacion</a>
-            
+               <div class="padre-buttons">
+                <div class="buttons-hero-info">
+                        <a href="#">Reserva ya</a>
+                </div>        
+                <div class="buttons-a">
+                    <a href="#">informacion</a>  
+                </div>
+                </div> 
             </div>
             
             <div class="hero-card">
@@ -73,40 +79,46 @@
         </section>
 
     </main> 
+    <hr class="hr">
     <footer>
 
         <section id="footer-contact">
             <h2>Contactanos</h2>
             
-             <div class="contact-container-top">
+        
+           
+            <div class="contact-bottom">
                 <div>
-                    <h3>San Miguel, Buenos aires</h3>
-                    <div class="Sm-info">
-                        <p> 📞 011 1122-221</p>
-                        <p> 📩 emaildeempresa@gmail.com</p>
-                        <p>📍 San Miguel, San Miguel</p> 
-                    </div>
+                    <h3>San Miguel, Buenos Aires</h3>
+                    <p>📞 011-1122-2211</p>
+                    <p>📩 emaildeempresa@gmail.com</p>
+                    <p>📍 San Miguel, Buenos Aires</p>
                 </div>
+
                 <div>
                     <h3>Mendoza, Mendoza</h3>
-                    <div class="Mdz-info">
-
-                        <p> 📞 011 2211-1122  </p> 
-                        <p>📩 emaildemendozagmail.com</p>
-                        <p>📍Mendoza, mendoza</p>
-                        
-
-                    </div>
+                    <p> 📞 011 2211-1122  </p> 
+                    <p>📩 emaildemendozagmail.com</p>
+                    <p>📍Mendoza, mendoza</p>
                 </div>
-                 <div class="workers">
-                    <img src="./Atendimento e Customer Success.png" alt="persona atendiendo">
-                </div>
-            </div>
-            <div class="contact-container-bottom">
-               
+
+                
+                    <img src="./Atendimento e Customer Success.png" >
                 
             </div>
+
+            <div class="redes h3"><h3>Nuestras redes!!</h3></div>
+
+            <div class="redes">
+              
+                <div><img src="/twitter.png" alt=""></div>
+                <div><img src="./instagram.png" alt=""></div>
+                <div><img src="./facebook.png" alt=""></div>
+        
+            </div>
+            
         </section>
+
 
     </footer>
 </body>
