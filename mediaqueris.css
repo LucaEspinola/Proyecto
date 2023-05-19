@@ -1,8 +1,5 @@
 @media (max-width: 992px){
     
-    .navbar{
-       display: none ;
-    }
     .lista-nav{ 
         position: absolute;
         top: 65px;
@@ -16,11 +13,15 @@
         border-top: none;
         border-radius: 0px 0px 10px 10px;
         z-index: 2;
+        display: none;
     }
 
     .navbar img{
         display: flex;
-
+        margin-right: 40px;
     }
        
+    #toggle-menu:checked + .lista-nav{
+        display: flex;
+    }
 }
